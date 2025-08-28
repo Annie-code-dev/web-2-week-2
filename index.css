@@ -1,0 +1,55 @@
+body{
+    background-color: blueviolet;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 20;
+    padding: 0;
+}
+h1{
+   text-align: center;
+   background-color: lightblue;
+   padding: 20px;
+   margin: 30px;
+   border: 3px solid darkblue;
+    border-radius: 10px;
+}
+div {
+  background-color: #fef9c3;
+  margin: 15px;       /* space outside */
+  padding: 15px;      /* space inside */
+  border: 2px dashed #f59e0b;
+  border-radius: 8px;
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: #fff;
+}
+
+table, th, td {
+  border: 2px solid #333;
+  padding: 10px;
+}
+
+th {
+  background-color: #93c5fd;
+}
+
+/* Form inputs */
+input, textarea, button {
+  margin: 10px;
+  padding: 8px;
+  border: 2px solid #4b5563;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
