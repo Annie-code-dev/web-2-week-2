@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HOPE</title>
+        <link rel="stylesheet" href = "Index.css">
+    </head>
+    <body>
+        <nav class = "nav">
+            <ul>
+            <a href = "#">Home</a>
+            <a href = "#">About</a>
+            <a href = "#">Contact</a>
+            </ul>
+        </nav>
+        <h1>HOPING</h1>
+        <p>Believe even when it does not feel right because it might never feel right till its done hence hope and act.</p>
+
+
+
+
+        <form id="myForm">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+                <button type="submit">Submit</button>
+                <p id="errorMessage" style="color: red;"></p>
+        </form>
+        <button id="Btn1">Click Me</button>
+        <p id="message"></p>
+
+        <button id="themeToggle">🌙 Dark Mode</button>
+        <form id="signupForm">
+  <div>
+    <label>Name:</label>
+    <input type="text" id="name" placeholder="Enter your name">
+    <small class="error" id="nameError"></small>
+  </div>
+
+  <div>
+    <label>Email:</label>
+    <input type="text" id="email" placeholder="Enter your email">
+    <small class="error" id="emailError"></small>
+  </div>
+
+  <div>
+    <label>Password:</label>
+    <input type="password" id="password" placeholder="Enter password">
+    <small class="error" id="passwordError"></small>
+  </div>
+
+  <div>
+    <label>Confirm Password:</label>
+    <input type="password" id="confirmPassword" placeholder="Confirm password">
+    <small class="error" id="confirmPasswordError"></small>
+  </div>
+
+  <button type="submit">Sign Up</button>
+  <p id="successMsg"></p>
+</form>
+
+         <script src = "Index.js" defer></script>
+    </body>
+</html>
