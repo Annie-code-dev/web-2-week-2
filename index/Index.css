@@ -1,0 +1,52 @@
+body{
+    background-color: #860c96;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #e3d4e9;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    color: #cd76f3;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+nav a:hover {
+    background-color: #72039b;
+}
+form {
+    margin-top: 20px;
+}
+button{
+    background-color: #cd76f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+#successMsg {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+input {
+  margin-bottom: 5px;
+  padding: 8px;
+  display: block;
+}
